@@ -4,5 +4,5 @@ integrantes:
 
 
 
-
+Daniel Felipe Valbuena Reyes
 David andres Camelo Suarez
