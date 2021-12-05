@@ -1,15 +1,15 @@
-package  src;
+package com.estructuraDeDatos;
 
-public class Compras{
+public class Compras {
     private String nombre;
-    private int fecha;
+    private String fecha;
     private long valorCuota;
     private int NdeCuotas;
 
     public String getNombre() {
         return nombre;
     }
-    public int getFecha() {
+    public String  getFecha() {
         return fecha;
     }
 
@@ -25,7 +25,7 @@ public class Compras{
         this.nombre = nombre;
     }
 
-    public void setFecha(int fecha) {
+    public void setFecha(String  fecha) {
         this.fecha = fecha;
     }
 
