@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Main {
 
 
-    private static Object Compras;
 
     public static void main(String[] args) {
         DynamicArray<Compras> compras = new DynamicArray();
