@@ -48,7 +48,7 @@ public class DynamicArray <T> {
         this.array = array;
     }
 
-    public void añadir(Class <T> clase, T data){
+    public void añadir(Class <T> clase, T Object){
         if(idx==0){
             aux = (T[]) Array.newInstance(clase,2);
             aux[getIdx()]=data;

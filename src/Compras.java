@@ -6,6 +6,14 @@ public class Compras {
     private long valorCuota;
     private int NdeCuotas;
 
+
+    public Compras(String nombre, String fecha, long valorCuota, int ndeCuotas) {
+        this.nombre = nombre;
+        this.fecha = fecha;
+        this.valorCuota = valorCuota;
+        NdeCuotas = ndeCuotas;
+    }
+
     public String getNombre() {
         return nombre;
     }
