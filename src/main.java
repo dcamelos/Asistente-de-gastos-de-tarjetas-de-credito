@@ -31,13 +31,9 @@ public class Main {
                 System.out.println("numero de cuotas");
                 int NumeroCuotas = accion.nextInt();
 
+                Compras a = new Compras(nombre,fecha,valorCuota,NumeroCuotas);
 
-                Compras a = new Compras();
-                a.setNombre(nombre);
-                a.setFecha(fecha);
-                a.setValorCuota(valorCuota);
-                a.setNdeCuotas(NumeroCuotas);
-                compras.añadir(Compras, a);
+                compras.añadir(Compras,);
 
             } else if (opcion == 2) {
                 System.out.println("Que compra desea eliminar?");
