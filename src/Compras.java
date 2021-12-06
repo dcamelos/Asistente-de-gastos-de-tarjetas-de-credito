@@ -11,7 +11,7 @@ public class Compras {
         this.nombre = nombre;
         this.fecha = fecha;
         this.valorCuota = valorCuota;
-        NdeCuotas = ndeCuotas;
+        this.NdeCuotas = ndeCuotas;
     }
 
     public String getNombre() {
