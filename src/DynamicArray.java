@@ -16,6 +16,15 @@ public class DynamicArray <T> {
     private T [] aux;
     private int capacity;
 
+    public DynamicArray(T data) {
+        this.data = data;
+    }
+
+    public DynamicArray() {
+
+    }
+
+
     public int getCapacity() {
         return capacity;
     }
@@ -48,7 +57,7 @@ public class DynamicArray <T> {
         this.array = array;
     }
 
-    public void añadir(Class <T> clase, T Object){
+    public void añadir(Class <T> clase, T data){
         if(idx==0){
             aux = (T[]) Array.newInstance(clase,2);
             aux[getIdx()]=data;

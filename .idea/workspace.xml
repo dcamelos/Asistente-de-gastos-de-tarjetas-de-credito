@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a01032fa-b5a6-44c2-b8ab-6cfcdd6fa041" name="Changes" comment="clase arreglo dinamico">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a01032fa-b5a6-44c2-b8ab-6cfcdd6fa041" name="Changes" comment="2.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +58,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638748502585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="agregar constructor">
+      <created>1638749390972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638749390972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2.0">
+      <created>1638749428433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638749428433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +103,8 @@
     <MESSAGE value="clase compras" />
     <MESSAGE value="implemetacion basica con arreglo" />
     <MESSAGE value="clase arreglo dinamico" />
-    <option name="LAST_COMMIT_MESSAGE" value="clase arreglo dinamico" />
+    <MESSAGE value="agregar constructor" />
+    <MESSAGE value="2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
   </component>
 </project>

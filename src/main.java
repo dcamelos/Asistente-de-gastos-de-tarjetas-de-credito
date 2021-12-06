@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 
+    private static Object Compras;
 
     public static void main(String[] args) {
         DynamicArray<Compras> compras = new DynamicArray();
@@ -33,18 +34,18 @@ public class Main {
 
                 Compras a = new Compras(nombre,fecha,valorCuota,NumeroCuotas);
 
-                compras.añadir(Compras,);
+               // compras.añadir((Class<com.estructuraDeDatos.Compras>) Compras,a);
 
             } else if (opcion == 2) {
                 System.out.println("Que compra desea eliminar?");
                 compras.eliminar(1);
             } else if (opcion == 3) {
                 System.out.println("Que compra desea modificar?");
-                compras.modificar(1,"hola");
+                //compras.modificar(1,"hola");
 
             } else if (opcion == 4) {
                 System.out.println("Que compra desea mostrar?");
-                compras.mostrar(1);
+                //compras.mostrar(1);
 
             }else if (opcion == 5) {
                 corriendo =false;
