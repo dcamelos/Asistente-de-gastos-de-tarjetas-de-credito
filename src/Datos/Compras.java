@@ -1,17 +1,23 @@
-package com.estructuraDeDatos;
 
+package Datos;
 public class Compras {
-    private String nombre;
-    private String fecha;
-    private long valorCuota;
-    private int NdeCuotas;
+    public String nombre;
+    public String fecha;
+    public long valorCuota;
+    public int NdeCuotas;
+    public Compras left;
+    public Compras right;
+    public int height;
+    public long Total;
 
 
-    public Compras(String nombre, String fecha, long valorCuota, int ndeCuotas) {
+
+    public Compras(String nombre,String fecha, long valorCuota, int ndeCuotas) {
         this.nombre = nombre;
         this.fecha = fecha;
         this.valorCuota = valorCuota;
         this.NdeCuotas = ndeCuotas;
+
     }
 
     public String getNombre() {
@@ -29,6 +35,12 @@ public class Compras {
         return NdeCuotas;
     }
 
+    public long getTotal() {
+        Total=(valorCuota*(long)NdeCuotas);
+        return Total;
+    }
+
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -43,5 +55,11 @@ public class Compras {
 
     public void setNdeCuotas(int ndeCuotas) {
         NdeCuotas = ndeCuotas;
+    }
+
+
+    @Override
+    public String toString(){
+        return("El nombre de la cuenta es: "+getNombre()+", la fecha es "+ getFecha()+", el valor de las cuotas es "+getValorCuota()+", el numero de cuotas "+getNdeCuotas()+" y el total es "+getTotal()+" ");
     }
 }
